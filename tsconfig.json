@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "target": "ES2016",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "declaration": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "src/**/*.spec.ts"],
+  "include": ["src/*"]
+}
