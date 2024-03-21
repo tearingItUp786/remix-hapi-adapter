@@ -1,7 +1,7 @@
 {
-  "name": "remix-hapijs-adapter",
+  "name": "remix-hapi-adapter",
   "version": "0.0.1",
-  "description": "A remix adapter for hapijs",
+  "description": "A remix adapter for hapi",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tearingItUp786/remix-hapijs-adapter.git"
+    "url": "git+https://github.com/tearingItUp786/remix-hapi-adapter.git"
   },
   "keywords": [
     "remix",
@@ -38,9 +38,9 @@
   "author": "Taran \"tearing it up\" Bains",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tearingItUp786/remix-hapijs-adapter/issues"
+    "url": "https://github.com/tearingItUp786/remix-hapi-adapter/issues"
   },
-  "homepage": "https://github.com/tearingItUp786/remix-hapijs-adapter#readme",
+  "homepage": "https://github.com/tearingItUp786/remix-hapi-adapter#readme",
   "peerDependencies": {
     "@hapi/hapi": "^20.3.0",
     "@remix-run/node": "^1.19.3"

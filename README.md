@@ -1,4 +1,4 @@
-# remix-hapijs-adapter
+# remix-hapi-adapter
 
 A remix adapter that allows use to use Remix in your Hapi apps.
 
@@ -6,4 +6,4 @@ A remix adapter that allows use to use Remix in your Hapi apps.
 
 Do this please!!
 
-`npm i remix-hapijs-adapter`
+`npm i remix-hapi-adapter`
