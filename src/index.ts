@@ -7,7 +7,6 @@ import Hapi from "@hapi/hapi";
 import {
   createReadableStreamFromReadable,
   type AppLoadContext,
-  Request as NodeRequest,
   createRequestHandler as createRemixRequestHandler,
 } from "@remix-run/node";
 // Interface for getLoadContext adapted for Hapi
@@ -62,7 +61,7 @@ async function createRemixRequest(
     init.duplex = "half";
   }
 
-  let req = new NodeRequest(url.href, init);
+  let req = new Request(url.href, init);
   return req;
 }
 
